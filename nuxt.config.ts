@@ -6,8 +6,4 @@ export default defineNuxtConfig({
       gtagId: "UA-100999309-2",
     },
   },
-  app: {
-    baseURL: '/nuxt-github-pages',
-    buildAssetsDir: 'assets',
-  },
 })

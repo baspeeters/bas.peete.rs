@@ -13,7 +13,6 @@
   "devDependencies": {
     "@gtm-support/vue-gtm": "^2.2.0",
     "@nuxt/devtools": "latest",
-    "gh-pages": "^6.0.0",
     "nuxt": "^3.7.4",
     "sass": "^1.69.0",
     "vue": "^3.3.4",
