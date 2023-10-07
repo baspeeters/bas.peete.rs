@@ -8,7 +8,7 @@ export default <Person>{
     hasOccupation: <Occupation>{
         "@type": "Occupation",
         roleName: "Tech Lead",
-        startDate: "2020",
+        startDate: "2022",
         sameAs: "https://en.wikipedia.org/wiki/Lead_programmer",
     },
     worksFor: <Organization>{
