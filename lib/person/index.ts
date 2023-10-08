@@ -1,7 +1,8 @@
 import { Person, Occupation, Organization } from "schema-dts";
-import workHistory from "~/lib/person/work-history";
+import workHistory from "./work-history";
 
 export default <Person>{
+    "@context": "https://schema.org/",
     "@type": "Person",
     name: "Bas Peeters",
     sameAs: "https://bas.peete.rs/",
