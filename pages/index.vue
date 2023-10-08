@@ -23,7 +23,6 @@ body {
   max-width:960px;
   background-color:transparent;
   font-family: monospace;
-  font-size: 1.25em;
   line-height: 1em;
 }
 
