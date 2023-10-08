@@ -3,6 +3,7 @@ import person from "./lib/person";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   app: {
     head: {
       script: [{
