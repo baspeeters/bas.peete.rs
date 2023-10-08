@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     head: {
       script: [{
         type: "application/ld+json",
-        innerHTML: JSON.stringify(person),
+        innerHTML: person,
       }],
     },
   },
