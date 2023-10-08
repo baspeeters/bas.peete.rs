@@ -1,10 +1,9 @@
 <script lang="ts" setup>
-import { PropType } from "vue/dist/vue";
-import { Occupation, Organization, Person, Role } from "schema-dts";
+import { Occupation, Organization, Role } from "schema-dts";
 
 const props = defineProps<{
   employer: Organization,
-  role: Role | Occupation,
+  role: Role,
 }>();
 </script>
 
