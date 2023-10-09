@@ -13,7 +13,7 @@ export default <Person>{
         sameAs: "https://en.wikipedia.org/wiki/Lead_programmer",
     },
     worksFor: <Organization>{
-        "@type": "Corporation",
+        "@type": "Organization",
         name: "Total Design",
         sameAs: "https://www.totaldesign.com/"
     },
