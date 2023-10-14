@@ -2,9 +2,19 @@
 
 <template>
   <div>
-    <h1>Bas Peeters</h1>
+    <span id="website-title">Bas Peeters</span>
+
+    <MainMenu />
+
     <slot />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+span#website-title {
+  color: deepskyblue;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
+</style>

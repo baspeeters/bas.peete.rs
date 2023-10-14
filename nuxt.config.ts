@@ -2,6 +2,7 @@
 import person from "./lib/person";
 
 export default defineNuxtConfig({
+  css: ["~/assets/css/main.scss"],
   devtools: { enabled: true },
   ssr: false,
   app: {

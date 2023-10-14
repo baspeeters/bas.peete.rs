@@ -1,0 +1,46 @@
+html {
+    background-color: #222;
+}
+
+body {
+    margin:5em auto;
+    padding:1em;
+    max-width:960px;
+    background-color:transparent;
+    font-family: monospace;
+    line-height: 1em;
+    color: darkgray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0099ff;
+    line-height: 100%;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a[target='_blank']::after {
+    content: '\231D';
+}
+
+ul {
+    color: #0099ff;
+    padding-left: 1.25em * 2;
+
+    li {
+        color: darkgray;
+    }
+}
