@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { Organization, Person, Role } from "schema-dts";
-import person from "../lib/person";
+import { Person } from "schema-dts";
+import person from "../lib/me";
 import { PropType } from "vue";
 
 const props = defineProps({

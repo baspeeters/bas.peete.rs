@@ -1,5 +1,11 @@
 <script lang="ts" setup>
-import me from "~/lib/person";
+import me from "~/lib/me";
+
+definePageMeta({
+  title: "About me",
+});
+
+useNuxtApp().$structuredData(me);
 </script>
 
 <template>
@@ -10,7 +16,7 @@ import me from "~/lib/person";
     <WorkHistory :person="me"/>
 
     <h2>Socials</h2>
-    <Socials />
+    <Socials/>
   </div>
 </template>
 

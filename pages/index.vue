@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-import me from "../lib/person";
+import website from "~/lib/website";
+
+useNuxtApp().$structuredData(website);
 </script>
 
 <template>

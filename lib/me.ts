@@ -5,7 +5,7 @@ export default <Person>{
     "@context": "https://schema.org/",
     "@type": "Person",
     name: "Bas Peeters",
-    sameAs: "https://bas.peete.rs/",
+    sameAs: "https://bas.peete.rs/about-me",
     hasOccupation: <Role>{
         "@type": "Role",
         roleName: "Tech Lead",

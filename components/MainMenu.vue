@@ -5,9 +5,9 @@
     <nav>
       <ul>
         <li>
-          <a href="/">
+          <NuxtLink to="/">
             Home
-          </a>
+          </NuxtLink>
         </li>
         <li>
           <NuxtLink to="/about-me">
