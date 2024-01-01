@@ -12,7 +12,7 @@
   "devDependencies": {
     "@gtm-support/vue-gtm": "^2.2.0",
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.4",
+    "nuxt": "^3.9.0",
     "sass": "^1.69.0",
     "vue": "^3.3.13",
     "vue-router": "^4.2.5"
