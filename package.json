@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@gtm-support/vue-gtm": "^2.2.0",
+    "@gtm-support/vue-gtm": "^3.0.1",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.11.2",
     "sass": "^1.77.6",
