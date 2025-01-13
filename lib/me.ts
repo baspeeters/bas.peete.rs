@@ -8,14 +8,14 @@ export default <Person>{
     sameAs: "https://bas.peete.rs/about-me",
     hasOccupation: <Role>{
         "@type": "Role",
-        roleName: "Tech Lead",
-        startDate: "2022",
-        sameAs: "https://en.wikipedia.org/wiki/Lead_programmer",
+        roleName: "Business Solutions Architect",
+        startDate: "2025",
+        sameAs: "https://en.wikipedia.org/wiki/Business_analyst",
     },
     worksFor: <Organization>{
         "@type": "Organization",
-        name: "Total Design",
-        sameAs: "https://www.totaldesign.com/"
+        name: "Basabasa",
+        sameAs: "https://basabasa.digital/"
     },
     alumniOf: workHistory,
 };

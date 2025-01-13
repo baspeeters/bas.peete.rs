@@ -2,6 +2,21 @@ import { EmployeeRole, Organization, Person } from "schema-dts";
 
 export default <Organization[]>[{
     "@type": "Organization",
+    name: "Total Design",
+    sameAs: "https://www.totaldesign.com/",
+    employee: <Person>{
+        "@type": "Person",
+        sameAs: "https://bas.peete.rs/",
+        hasOccupation: <EmployeeRole>{
+            "@type": "EmployeeRole",
+            roleName: "Tech Lead",
+            startDate: "2022",
+            endDate: "2024",
+            sameAs: "https://en.m.wikipedia.org/?title=Technical_lead",
+        },
+    },
+}, {
+    "@type": "Organization",
     name: "PressPage",
     sameAs: "https://www.presspage.com/",
     employee: <Person>{
