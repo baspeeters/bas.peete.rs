@@ -24,7 +24,7 @@ export default <Organization[]>[{
         sameAs: "https://bas.peete.rs/",
         hasOccupation: <EmployeeRole>{
             "@type": "EmployeeRole",
-            roleName: "Chief Technology Officer",
+            roleName: "CTO",
             startDate: "2020",
             endDate: "2022",
             sameAs: "https://en.wikipedia.org/wiki/Chief_technology_officer",
